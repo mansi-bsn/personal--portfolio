@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- Font Awesome CDN for Icons -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class=" font-monospace" style="background-color: #121212;" >
+    <!-- toggle section -->
+    <section>
+        <div class="container">
+            <div class="d-flex justify-content-end">
+                <div>
+                    <ul class="nav">
+                        <li class="nav-item">
+                          <a class="nav-link text-white fw-semibold" aria-current="page" href="https://www.facebook.com/" target="_blank">FB</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white fw-semibold" href="https://x.com/home" target="_blank">TW</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white fw-semibold" href="https://www.instagram.com/" target="_blank">IG</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white fw-semibold" href="#" target="_blank">IN</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">...</button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Contact</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div>
+                                <span class="fw-bold text-uppercase d-block mb-2">Phone:</span>
+                                <h4 class="d-block fs-4">+91 9099160546</h4>
+                            </div>
+                            <div class="pt-4">
+                                <span class="fw-bold text-uppercase d-block mb-2">Email:</span>
+                                <h4 class="d-block fs-4">mansimaniya178@gmail.com</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- main -->
+    <section class="pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-block d-xl-none position-fixed">
+                    <div class="text-white px-5 py-2 rounded" style="background-color: #1e1e1e;">
+                        <div class="text-white rounded" style="background-color: #1e1e1e;">
+                            <nav id="simple-list-example" class="navbar justify-content-evenly px-3 mb-3">
+                                <ul class="nav nav-pills">
+                                  <li class="nav-item">
+                                    <a class="nav-link text-light" href="#simple-list-item-1">A</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link text-light" href="#simple-list-item-2">P</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link text-light" href="#simple-list-item-3">S</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link text-light" href="#simple-list-item-4">R</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link text-light" href="#simple-list-item-5">C</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link text-light" href="#simple-list-item-6">M</a>
+                                  </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 py-5 d-block d-xl-none">
+
+                </div>
+                <div class="col-3 d-none d-xl-block">
+                  <div class="text-white px-5 py-2 rounded position-fixed" style="background-color: #1e1e1e;">
+                      <div class="">
+                          <div id="simple-list-example" class="d-flex px-5 py-3 flex-column gap-2 simple-list-example-scrollspy text-center">
+                              <a class="p-1 rounded text-uppercase text-decoration-none text-light" href="#simple-list-item-1">About Me</a>
+                              <a class="p-1 rounded text-uppercase text-decoration-none text-light" href="#simple-list-item-2">Portfolio</a>
+                              <a class="p-1 rounded text-uppercase text-decoration-none text-light" href="#simple-list-item-3">Services</a>
+                              <a class="p-1 rounded text-uppercase text-decoration-none text-light" href="#simple-list-item-4">Resume</a>
+                              <a class="p-1 rounded text-uppercase text-decoration-none text-light" href="#simple-list-item-5">Contact</a>
+                              <a class="p-1 rounded text-uppercase text-decoration-none text-light" href="#simple-list-item-6">Map</a>
+                          </div>
+                      </div>
+                  </div>  
+                </div>
+                <div class="col-12 col-xl-9 ps-4">
+                  <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                    <!-- about me section -->
+                    <section id="simple-list-item-1">
+                        <div class="row rounded text-white d-flex justify-content-center align-items-center" style="background-color: #1e1e1e;">
+                            <div class="col-12 p-4 col-xl-4 text-center" style="width: 260px; height: 260px;">
+                                <img src="./images/pro-6.jpg" alt="Profile Image" class="rounded-circle img-fluid w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="col-12 p-5 col-xl-8 p-0">
+                                <div>
+                                    <h5 class="text-uppercase text-white">// About Me</h5>
+                                    <h1 class="fw-bold pt-2 pb-2">Web Designer</h1>
+                                    <div class="d-flex my-3">
+                                      <div class="me-3">
+                                        <button class="btn btn-light rounded-pill d-flex"><span><i class="fa-brands fa-html5 pe-2" style="color: #838485;"></i></span>
+                                            <span>HTML</span></button>
+                                      </div>
+                                      <div class="me-3">
+                                        <button class="btn btn-light rounded-pill d-flex"><span><i class="fa-brands fa-css3 pe-2" style="color: #838485;"></i></span><span>CSS</span></button>
+                                      </div>
+                                      <div class="me-3">
+                                        <button class="btn btn-light rounded-pill d-flex"><span><i class="fa-brands fa-bootstrap pe-2" style="color: #838485;"></i></span><span>Bootstrap</span></button>
+                                      </div>
+                                      <div class="me-3">
+                                        <button class="btn btn-light rounded-pill d-flex"><span><i class="fa-brands fa-c pe-2" style="color: #838485;"></i></span><span>C++</span></button>
+                                      </div>
+                                      <div>
+                                        <button class="btn btn-light rounded-pill d-flex"><span><i class="fa-brands fa-desktop pe-2" style="color: #838485;"></i></span><span>Canva</span></button>
+                                      </div>
+                                    </div>
+                                    <p class="text-white">Hi, I'm mansi, a web development enthusiast currently learning Full-Stack Development. 
+                                        As a dedicated learner, I am excited to explore advanced concepts and build impactful projects in the near future.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section> 
+                    <!-- portfolio section -->
+                    <section id="simple-list-item-2" class="mt-3">
+                        <div class="row p-5 rounded text-white" style="background-color: #1e1e1e;">
+                            <div class="col-12 col-lg-8">
+                                <div>
+                                    <h5 class="text-uppercase text-white">// portfolio</h5>
+                                    <h1 class="fw-bold pt-2 pb-2">My Latest Works</h1>
+                                    <p class="text-white">This is my personal portfolio showcasing my skills and projects. Built using HTML, CSS, and Bootstrap.</p>
+                                    <div class="d-flex my-3">
+                                      
+                                      <div class="me-3">
+                                        <button class="btn btn-light rounded-pill" style="--bs-btn-hover-bg: #000; --bs-btn-hover-color: #fff;">Web design</button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6 pb-4">
+                                    <div class="galry-item">
+                                        <div class="position-relative galry-img">
+                                            <a href="./PROJECT/kyata-bootstrap/kyata-bootstrap/kyata-bootstrap/index.html">
+                                                <img src="./images/pro-1.png" class="img-fluid object-fit-cover rounded w-100 h-100" alt="gal-1">
+                                            </a>
+                                          <div class="galry-content ps-3 d-flex flex-nowrap align-items-center" style="justify-content: center;">
+                                            <div class="d-block">
+                                              <strong class="d-block p-2 h4" style="margin-bottom: 0rem">
+                                                <a href="#" class="d-block clr-wh fs-1 text-decoration-none fw-bold">Digital business web</a>
+                                              </strong>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 pb-4">
+                                    <div class="galry-item">
+                                        <div class="position-relative galry-img">
+                                            <a href="./PROJECT/smartHR-adminpanel/sign-up.html">
+                                                <img src="./images/pro-2.png" class="img-fluid rounded w-100 h-100" alt="gal-1">
+                                            </a>
+                                          <div class="galry-content ps-3 d-flex flex-nowrap align-items-center" style="justify-content: center;">
+                                            <div class="d-block">
+                                              <strong class="d-block p-2 h4" style="margin-bottom: 0rem">
+                                                <a href="#" class="d-block clr-wh fs-1 text-decoration-none fw-bold">smartHR-adminpanel</a>
+                                              </strong>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 pb-4">
+                                    <div class="galry-item">
+                                        <div class="position-relative galry-img">
+                                            <a href="./PROJECT/business-css-min/business-css-min/style.html">
+                                                <img src="./images/pro-3.png" class="img-fluid rounded w-100 h-100" alt="gal-1">
+                                            </a>
+                                          <div class="galry-content ps-3 d-flex flex-nowrap align-items-center" style="justify-content: center;">
+                                            <div class="d-block">
+                                              <strong class="d-block p-2 h4" style="margin-bottom: 0rem">
+                                                <a href="#" class="d-block clr-wh fs-1 text-decoration-none fw-bold">Web agency website</a>
+                                              </strong>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 pb-4">
+                                    <div class="galry-item">
+                                        <div class="position-relative galry-img">
+                                            <a href="./PROJECT/business-css-min/business-css-min/style.html">
+                                                <img src="./images/pro-3.png" class="img-fluid rounded w-100 h-100" alt="gal-1">
+                                            </a>
+                                          <div class="galry-content ps-3 d-flex flex-nowrap align-items-center" style="justify-content: center;">
+                                            <div class="d-block">
+                                              <strong class="d-block p-2 h4" style="margin-bottom: 0rem">
+                                                <a href="#" class="d-block clr-wh fs-1 text-decoration-none fw-bold">Web agency website</a>
+                                              </strong>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- service section -->
+                    <section id="simple-list-item-3" class="mt-3">
+                        <div class="row text-white p-5 rounded" style="background-color: #1e1e1e;">
+                            <div class="col-12 col-lg-8 pb-5">
+                                <div>
+                                    <h5 class="text-uppercase text-white">// services</h5>
+                                    <h1 class="fw-bold pt-2 pb-2">What I Do</h1>
+                                    <p class="text-white">I create visually appealing and mobile-friendly websites using HTML, CSS, and Bootstrap.</p>
+                                </div>    
+                            </div>
+                            <div class="col-4">
+
+                            </div>
+                            <div class="row d-flex align-items-center">
+                                <div class="col-12 col-md-6 col-lg-1">
+                                    <div class="">
+                                        <span class="fw-bold display-2">01</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="ps-4">
+                                        <i class="fa-solid fa-code"></i>
+                                        <h3 class="h6 text-uppercase">website Designer</h3>
+                                    </div>
+                                </div>    
+                                <div class="col-12 col-lg-7">
+                                    <div>
+                                        <p class="text-secondary ">I create responsive websites and mobile-friendly applications using HTML, CSS, and Bootstrap. Whether it's a portfolio or a business website, I ensure functionality and aesthetics go hand-in-hand.</p>
+                                    </div>
+                                </div>
+                            </div>    
+                            <hr class="border border-secondary border-2">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-12 col-md-6 col-lg-1">
+                                    <div class="">
+                                        <span class="fw-bold display-2">02</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="ps-4">
+                                        <i class="fa-solid fa-display"></i>
+                                        <h3 class="h6 text-uppercase">Digital Marketing</h3>
+                                    </div>
+                                </div>    
+                                <div class="col-12 col-lg-7">
+                                    <div>
+                                        <p class="text-secondary ">I provide strategies to enhance your online presence through SEO, social media marketing, and content optimization. Let me help you connect with your target audience effectively.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- resume section -->
+                    <section id="simple-list-item-4" class="mt-3">
+                        <div class="row p-5 rounded" style="background-color: #1e1e1e;">
+                            <div class="col-12 col-lg-8 pb-5">
+                                <div class="text-white">
+                                    <h5 class="text-uppercase">// resume</h5>
+                                    <h1 class="fw-bold pt-2 pb-2 ">Education & Experience</h1>
+                                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p> -->
+                                </div>    
+                            </div>
+                            <div class="col-4">
+
+                            </div>
+                            <div class="timeline">
+                                <div class="row gy-4 pb-1 pe-md-0 align-items-center">
+                                    <div class="col-md-6 text-md-end">
+                                        <div class="timeline-card">
+                                            <h5 class="text-black fw-bold">BCA Degree</h5>
+                                            <p><strong>Started:</strong> 2023 - Present</p>
+                                            <p>Currently pursuing at your college.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 text-center d-none d-md-block">
+                                    </div>
+                                </div>
+                                <div class="row gy-4 pb-1 pe-md-0 align-items-center">
+                                    <div class="col-md-6 text-center d-none d-md-block">
+                                    </div>
+                                    <div class="col-md-6 text-md-start">
+                                        <div class="timeline-card">
+                                            <h5 class="text-dark fw-bold">Digital Marketing</h5>
+                                            <p><strong>Status:</strong> Completed</p>
+                                            <p>Gained expertise in online marketing strategies.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row gy-4 pb-1 pe-md-0 align-items-center">
+                                    <div class="col-md-6 text-md-end">
+                                        <div class="timeline-card">
+                                            <h5 class="text-dark fw-bold">Full-Stack Development</h5>
+                                            <p><strong>Status:</strong> Learning</p>
+                                            <p>Currently expanding skills in frontend and backend development.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 text-center d-none d-md-block">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section> 
+                    <!-- contact section -->
+                    <section id="simple-list-item-5" class="mt-3">
+                        <div class="row text-white p-5 rounded" style="background-color: #1e1e1e;">
+                            <div class="col-12 col-lg-8 pb-5">
+                                <div>
+                                    <h5 class="text-uppercase text-white">// get in touch</h5>
+                                    <h1 class="fw-bold pt-2 pb-2">Let's Connect</h1>
+                                    <p class="text-white">If you have any questions or want to discuss a project, feel free to reach out!</p>
+                                </div>    
+                                <div class="d-flex my-3">
+                                    <div class="me-2">
+                                      <button class="btn btn-light rounded-pill">Phone: +91 9099160546</button>
+                                    </div>
+                                    <div class="me-2">
+                                      <button class="btn btn-light rounded-pill">Email: mansimaniya178@gmail.com</button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="text-start">
+                                      <button class="btn btn-light rounded-pill">Address: 44, ishwarnagar society, punagam-near sitanagar, surat</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+
+                            </div>
+                            <div class="row">
+                                <form>
+                                    <div class="row mb-3">
+                                        <div class="col-md-6">
+                                            <label for="name" class="form-label">Name</label>
+                                            <input type="text" class="form-control border-0" id="name" placeholder="Enter your name">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="email" class="form-label">E-Mail</label>
+                                            <input type="email" class="form-control border-0" id="email" placeholder="Enter your email">
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="subject" class="form-label">Subject</label>
+                                        <input type="text" class="form-control border-0" id="subject" placeholder="Enter the subject">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea class="form-control border-0 border-0" id="message" rows="4" placeholder="Write your message"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-lg btn-danger rounded-pill">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </section> 
+                    <!-- map section -->
+                    <section id="simple-list-item-6" class="mt-3">
+                            <div class="row text-white p-1 rounded" style="background-color: #1e1e1e;">
+                                <div class="col-12">
+                                  <div style="height: 360px;">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.91477127143!2d-74.11976341808828!3d40.697403441901386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1573223498837!5m2!1sen!2s" style="border:0; height: 100%; width: 100%;" allowfullscreen="" class="rounded"></iframe>
+                                        
+                                  </div>
+                                </div>
+                            </div>
+                    </section>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Layout</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .content {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .bg-image {
+            background-image: url('path_to_your_background_image.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container bg-image">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="overflow-hidden img-sec">
+                <img src="./images/img-1.webp" alt="img-1" class="wi-100 position-relative" style="height: 100%;">
+                <div class="img-overlay text-center d-flex align-items-center">
+                  <h3><a href="#">Wood Crafting</a></h3>
+                  <br>
+                  <a href="#">Carpenter, Works</a>
+                </div>
+                <div class="img-over d-flex align-items-end text-end">
+                  <span class=""><a href="#"><i class="fa-solid fa-magnifying-glass fa-bounce" style="color: #ffffff;"></i></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+

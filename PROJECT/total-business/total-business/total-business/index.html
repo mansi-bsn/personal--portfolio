@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Layout</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN for Icons -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- main css2 -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-7 col-sm-7 col-md-4 offset-md-4 col-lg-2 offset-lg-0 col-xl-2 col-xxl-2 p-4">
+          <div>
+            <a href="./images/logo.webp">
+              <img src="./images/logo.webp" alt="logo" class="logo">
+            </a>
+          </div>
+        </div>
+        <div class="col-5 col-sm-5 d-md-none d-lg-none d-xl-none d-xxl-none d-flex justify-content-end pe-5"><i class="fa-solid fa-bars"></i></div>
+        <div class="col-10 col-md-12 d-none d-md-block col-lg-10 col-xl-10 col-xxl-10 p-4">
+          <nav class="navbar justify-content-end">
+            <ul class="d-flex justify-content-end">
+              <li class="head-list"><a href="#" class="p-4 head-hov text-none">HOME</a></li>
+              <li class="head-list dropdown"><a href="#" class="p-4 head-hov text-none">PAGES</a>
+                <nav>
+                  <ul class="dropdown-menu menu bg-dark" style="--bs-dropdown-border-radius:0rem; --bs-dropdown-min-width: 13.125rem; --bs-dropdown-font-size: 1rem;">
+                    <li><a href="#" class="dropdown-item text-hov text-none">About Us 1</a></li>
+                    <li><a href="#" class="dropdown-item text-hov text-none">About Us 2</a></li>
+                    <li><a href="#" class="dropdown-item text-hov text-none">About Us 3</a></li>
+                    <li><a href="#" class="dropdown-item text-hov text-none">Service 1</a></li>
+                    <li><a href="#" class="dropdown-item text-hov text-none">Service 2</a></li>
+                    <li><a href="#" class="dropdown-item text-hov text-none">Personal</a></li>
+                    <li><a href="#" class="dropdown-item text-hov text-none">Q&A</a></li>
+                    <li><a href="#" class="dropdown-item text-hov text-none">Contact Page 1</a></li>
+                    <li><a href="#" class="dropdown-item text-hov text-none">Contact Page 2</a></li>
+                    <li><a href="#" class="dropdown-item text-hov text-none">404 Page</a></li>
+                    <li><a href="#" class="dropdown-item text-hov text-none">Testimonial</a></li>
+                    <li><a href="#" class="dropdown-item text-hov text-none">Gallery</a></li>
+                  </ul>
+                </nav>
+              </li>
+              <li class="head-list dropdown"><a href="#" class="p-4 head-hov text-none">PORTFOLIO</a>
+                <nav>
+                  <ul class="dropdown-menu mega-menu pad bg-dark" style="--bs-dropdown-border-radius:0rem; --bs-dropdown-min-width: 13.125rem; --bs-dropdown-font-size: 1rem;">
+                      <div class="row">
+                        <div class="col-4">
+                          <h4 class="text--grey"><a href="#" class="dropdown-item text-hov text-none f-17">Portfolio Classic</a></h4>
+                          <li class="text--grey"><a href="#" class="dropdown-item text-hov text-none">Portfolio Grid 1 Column (Both Sidebar)</a></li>
+                          <li class="text--grey"><a href="#" class="dropdown-item text-hov text-none">Portfolio Grid 2 Columns (Right Sidebar)</a></li>
+                          <li class="text--grey"><a href="#" class="dropdown-item text-hov text-none">Portfolio Grid 3 Columns</a></li>
+                          <li class="text--grey"><a href="#" class="dropdown-item text-hov text-none">Portfolio Grid 4 Columns</a></li>
+                          <li class="text--grey"><a href="#" class="dropdown-item text-hov text-none">Portfolio Grid 2 Columns, No Space</a></li>
+                          <li class="text--grey"><a href="#" class="dropdown-item text-hov text-none">Portfolio Grid 3 Columns, No Space</a></li>
+                          <li class="text--grey"><a href="#" class="dropdown-item text-hov text-none">Portfolio Grid 4 Columns, No Space</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                        </div>
+                        <div class="col-4">
+                          <h4><a href="#" class="dropdown-item text-hov text-none f-17">Portfolio Modern</a></h4>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Portfolio Modern 3 Columns</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Portfolio Modern 4 Columns</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Portfolio Modern 3 Columns, No Space</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Portfolio Modern 4 Columns, No Space</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Portfolio Fixed Masonry Style 1</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Portfolio Fixed Masonry Style 2</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                        </div>
+                        <div class="col-4">
+                          <h4><a href="#" class="dropdown-item text-hov text-none f-17">Portfolio With Filter</a></h4>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Portfolio Grid 1 Col With Filter</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Portfolio Grid 2 Cols With Filter</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Portfolio Grid 3 Cols With Filter</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Portfolio Grid 4 Cols With Filter</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Portfolio Modern 3 Cols With Filter</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Portfolio Modern 4 Cols With Filter</a></li>
+                        </div>
+                      </div>
+                  </ul>
+                </nav>
+              </li>
+              <li class="head-list dropdown"><a href="#" class="p-4 head-hov text-none">BLOG</a>
+                <nav>
+                  <ul class="dropdown-menu mega-menu-1 bg-dark" style="--bs-dropdown-border-radius:0rem; --bs-dropdown-min-width: 13.125rem; --bs-dropdown-font-size: 1rem;">
+                      <div class="row">
+                        <div class="col-3">
+                          <h4><a href="#" class="dropdown-item text-hov text-none f-17">Blog Full</a></h4>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Blog Full With Right Sidebar</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Blog Full With Left Sidebar</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Blog Full With Both Sidebar</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                        </div>
+                        <div class="col-3">
+                          <h4><a href="#" class="dropdown-item text-hov text-none f-17">Blog Column</a></h4>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Blog 1 Column (Right Sidebar)</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Blog 2 Columns (Right Sidebar)</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Blog 3 Columns</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Blog 4 Columns</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                        </div>
+                        <div class="col-3">
+                          <h4><a href="#" class="dropdown-item text-hov text-none f-17">Blog Masonry</a></h4>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Blog 2 Columns – Masonry (Right Sidebar)</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Blog 3 Columns – Masonry</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Blog 4 Columns – Masonry</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                        </div>
+                        <div class="col-3">
+                          <h4><a href="#" class="dropdown-item text-hov text-none f-17">Blog Medium</a></h4>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Blog Medium With Right Sidebar</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Blog Medium With Left Sidebar</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Blog Medium With Both Sidebar</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Blog Medium Without Sidebar</a></li>
+                        </div>
+                      </div>
+                  </ul>
+                </nav>
+              </li>
+              <li class="head-list dropdown"><a href="#" class="p-4 head-hov text-none">SHORTCODES</a>
+                <nav>
+                  <ul class="dropdown-menu mega-menu-2 bg-dark" style="--bs-dropdown-border-radius:0rem; --bs-dropdown-min-width: 13.125rem; --bs-dropdown-font-size: 1rem;">
+                      <div class="row">
+                        <div class="col-3">
+                          <h4><a href="#" class="dropdown-item text-hov text-none f-17">Shortcode Set 1</a></h4>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Accordion/Toggle Box</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Audio Shortcode</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Button</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Column Shortcode</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Divider</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Gallery Shortcode</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                        </div>
+                        <div class="col-3">
+                          <h4><a href="#" class="dropdown-item text-hov text-none f-17">Shortcode Set 2</a></h4>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Heading Tag</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">icons & icon boxes</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Lightbox & Frames</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Notification Boxes</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Personnel</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Post Slider</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                        </div>
+                        <div class="col-3">
+                          <h4><a href="#" class="dropdown-item text-hov text-none f-17">Shortcode Set 3</a></h4>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Price Table</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Process</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">prog Circle</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Skills</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Slider Shortcode</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Space</a></li>
+                          <li><hr class="dropdown-divider"></li>
+
+                        </div>
+                        <div class="col-3">
+                          <h4><a href="#" class="dropdown-item text-hov text-none f-17">Shortcode Set 4</a></h4>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Styled Box</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Stunning Text</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Table</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Tabs</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Testimonial & Quote</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Typography</a></li>
+                          <li><a href="#" class="dropdown-item text-hov text-none">Video</a></li>
+                        </div>
+                      </div>
+                  </ul>
+                </nav>
+              </li>
+              <li><i class="fa-solid fa-magnifying-glass text-muted"></i></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- banner -->
+    <section class="banner d-flex align-items-center text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="display-3">Welcome To</h3>
+            <h1 class="display-1">TOTAL BUSINESS</h1>
+            <h4>The Best Wordpress Theme For Your Project</h4>
+            <button><a href="#" class="btn btn-info">LEARN MORE</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service section  -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col d-flex image text-left text-white service-sec-1">
+            <div class="col-3 ">
+            </div>
+            <div class="col-9 pt-5 pb-5">
+              <div>
+                <h3>We have served more than 10,000 customers</h3>
+              </div>
+              <div>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus.</p>
+              </div>
+              <div>
+                <a href="#" class="text-none">Take A Tour</a>
+              </div>
+            </div> 
+          </div>
+          <div class="col d-flex text-left text-white bg-dark ps-5 pt-5 pb-5 service-sec-1">
+            <div class="col-9">
+              <div>
+                <h3>We provide fast & great customer support</h3>
+              </div>
+              <div>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus.</p>
+              </div>
+              <div>
+                <a href="#" class="text-none">Take A Tour</a>
+              </div>
+            </div>
+            <div class="col-3">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- content section -->
+    <section style="background-color: #36bddb;" class="p-5 text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            Special promotion! Large order gets 20% off. Contact us for more info.
+          </div>
+          <div class="col-3">
+            <div class="btn btn-info text-white">CONTACT US</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- big content section -->
+    <section class="pt-5">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-4 d-flex ps-3 pe-3 pb-4">
+            <div>
+              <img src="./images/icon-service-1.webp" alt="icon-service-1" style="width: 35px; height: 35px;">
+            </div>
+            <div class="ps-3 pe-3 pb-3">
+              <div>
+                <h3>Commodo Fringilla Nibh</h3>
+              </div>
+              <div>
+                <p class="text-muted">Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cras mattis consecte.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 d-flex ps-3 pe-3 pb-4">
+            <div>
+              <img src="./images/icon-service-2.webp" alt="icon-service-2" style="width: 35px; height: 35px;">
+            </div>
+            <div class="ps-3 pe-3 pb-3">
+              <div>
+                <h3>Commodo Fringilla Nibh</h3>
+              </div>
+              <div>
+                <p class="text-muted">Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cras mattis consecte.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 d-flex ps-3 pe-3 pb-4">
+            <div>
+              <img src="./images/icon-service-3.webp" alt="icon-service-3" style="width: 35px; height: 35px;">
+            </div>
+            <div class="ps-3 pe-3 pb-3">
+              <div>
+                <h3>Commodo Fringilla Nibh</h3>
+              </div>
+              <div>
+                <p class="text-muted">Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cras mattis consecte.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-4 d-flex ps-3 pe-3 pb-4">
+            <div>
+              <img src="./images/icon-service-4.webp" alt="icon-service-4" style="width: 35px; height: 35px;">
+            </div>
+            <div class="ps-3 pe-3 pb-3">
+              <div>
+                <h3>Commodo Fringilla Nibh</h3>
+              </div>
+              <div>
+                <p class="text-muted">Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cras mattis consecte.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 d-flex ps-3 pe-3 pb-4">
+            <div>
+              <img src="./images/icon-service-5.webp" alt="icon-service-5" style="width: 35px; height: 35px;">
+            </div>
+            <div class="ps-3 pe-3 pb-3">
+              <div>
+                <h3>Commodo Fringilla Nibh</h3>
+              </div>
+              <div>
+                <p class="text-muted">Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cras mattis consecte.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 d-flex ps-3 pe-3 pb-4">
+            <div>
+              <img src="./images/icon-service-6.webp" alt="icon-service-6" style="width: 35px; height: 35px;">
+            </div>
+            <div class="ps-3 pe-3 pb-3">
+              <div>
+                <h3>Commodo Fringilla Nibh</h3>
+              </div>
+              <div>
+                <p class="text-muted">Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cras mattis consecte.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- theme-image -->
+    <section class="theme-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-9 text-white">
+            <div>
+              <h2>It’s The Best WordPress Theme.</h2>
+            </div>
+            <div>
+              <p>This theme comes with many awesome features and it suits to any kind of businesses. You will love it!</p>
+            </div>
+          </div>
+          <div class="col-3">
+            <a href="#" class="btn btn-info text-white">LEARN MORE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- image-section -->
+    <section class="bg-dark">
+      <div class="container-fluid">
+        <div class="row pt-5 pb-5">
+          <div class="col-12">
+            <div class="text-center">
+              <h3 class="text-white">Featured Works</h3>
+              <a href="#" class="text-info-hov text-none">View All Works</a>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-4 g-0">
+            <div class="overflow-hidden img-sec">
+              <img src="./images/img-1.webp" alt="img-1" class="wi-100 position-relative object-fit-cover" style="height: 75%;">
+              <div class="img-overlay text-center d-flex align-items-center">
+                <h3 class="d-block"><a href="#" class="text-center text-none text-white">Wood Crafting</a></h3>
+                <br>
+                <a href="#" class="text-center text-none text-white">Carpenter, Works</a>
+                <div class="img-over d-flex align-items-end text-end">
+                  <span class=""><a href="#"><i class="fa-solid fa-magnifying-glass fa-bounce" style="color: #ffffff;"></i></a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 g-0">
+            <div class="overflow-hidden img-sec">
+              <img src="./images/img-2.webp" alt="img-1" class="wi-100 position-relative object-fit-cover" style="height: 75%;">
+              <div class="img-overlay text-center d-flex align-items-center">
+                <h3 class="d-block"><a href="#" class="text-center text-none text-white">Wood Crafting</a></h3>
+                <br>
+                <a href="#" class="text-center text-none text-white">Carpenter, Works</a>
+                <div class="img-over d-flex align-items-end text-end">
+                  <span class=""><a href="#"><i class="fa-solid fa-magnifying-glass fa-bounce" style="color: #ffffff;"></i></a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 g-0">
+            <div class="overflow-hidden img-sec">
+              <img src="./images/img-3.webp" alt="img-1" class="wi-100 position-relative object-fit-cover" style="height: 75%;">
+              <div class="img-overlay text-center d-flex align-items-center">
+                <h3 class="d-block"><a href="#" class="text-center text-none text-white">Wood Crafting</a></h3>
+                <br>
+                <a href="#" class="text-center text-none text-white">Carpenter, Works</a>
+                <div class="img-over d-flex align-items-end text-end">
+                  <span class=""><a href="#"><i class="fa-solid fa-magnifying-glass fa-bounce" style="color: #ffffff;"></i></a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-4 g-0">
+            <div class="overflow-hidden img-sec">
+              <img src="./images/img-4.webp" alt="img-1" class="wi-100 position-relative object-fit-cover" style="height: 100%;">
+              <div class="img-overlay text-center d-flex align-items-center">
+                <h3 class="d-block"><a href="#" class="text-center text-none text-white">Wood Crafting</a></h3>
+                <br>
+                <a href="#" class="text-center text-none text-white">Carpenter, Works</a>
+                <div class="img-over d-flex align-items-end text-end">
+                  <span class=""><a href="#"><i class="fa-solid fa-magnifying-glass fa-bounce" style="color: #ffffff;"></i></a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 g-0">
+            <div class="overflow-hidden img-sec">
+              <img src="./images/img-5.webp" alt="img-1" class="wi-100 position-relative object-fit-cover" style="height: 100%;">
+              <div class="img-overlay text-center d-flex align-items-center">
+                <h3 class="d-block"><a href="#" class="text-center text-none text-white">Wood Crafting</a></h3>
+                <br>
+                <a href="#" class="text-center text-none text-white">Carpenter, Works</a>
+                <div class="img-over d-flex align-items-end text-end">
+                  <span class=""><a href="#"><i class="fa-solid fa-magnifying-glass fa-bounce" style="color: #ffffff;"></i></a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 g-0">
+            <div class="overflow-hidden img-sec">
+              <img src="./images/img-6.webp" alt="img-1" class="wi-100 position-relative object-fit-cover" style="height: 100%;">
+              <div class="img-overlay text-center d-flex align-items-center">
+                <h3 class="d-block"><a href="#" class="text-center text-none text-white">Wood Crafting</a></h3>
+                <br>
+                <a href="#" class="text-center text-none text-white">Carpenter, Works</a>
+                <div class="img-over d-flex align-items-end text-end">
+                  <span class=""><a href="#"><i class="fa-solid fa-magnifying-glass fa-bounce" style="color: #ffffff;"></i></a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about us sec -->
+    <section class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div>
+              <h3>About Us</h3>
+            </div>
+            <div>
+              <p>
+                Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus.
+              </p>
+            </div>
+            <a href="#" class="text-info text-none">Read More</a>
+          </div>
+          <div class="col-6">
+            <div class="prog-item">
+              <div class="prog-title d-flex justify-content-between mb-3">
+                Advanced Technologies
+                <span>80%</span>
+              </div>
+              <div class="prog">
+                  <div class="prog-bar" style="width: 80%;">
+                  </div>
+              </div>
+            </div>
+            <div class="prog-item">
+              <div class="prog-title clr-blk d-flex justify-content-between mb-3">
+                Production Capacity
+                <span>95%</span>
+              </div>
+              <div class="prog">
+                  <div class="prog-bar" style="width: 95%;">
+                  </div>
+              </div>
+            </div>
+            <div class="prog-item">
+              <div class="prog-title clr-blk d-flex justify-content-between mb-3">
+                Utilization Rate
+                <span>70%</span>
+              </div>
+              <div class="prog">
+                  <div class="prog-bar" style="width: 70%;">
+                  </div>
+              </div>
+            </div>
+            <div class="prog-item">
+              <div class="prog-title clr-blk d-flex justify-content-between mb-3">
+                Customer Satisfaction
+                <span>100%</span>
+              </div>
+              <div class="prog">
+                  <div class="prog-bar" style="width: 100%;">
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- counter section -->
+    <section class="counter p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="text-white text-center">
+              <div class="pb-3">350</div>
+              <div class="border"></div>
+              <div class="pt-3">EMPLOYEES</div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="text-white text-center">
+              <div class="pb-3">12000</div>
+              <div class="border"></div>
+              <div class="pt-3">SQUARE FEET</div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="text-white text-center">
+              <div class="pb-3">2400</div>
+              <div class="border"></div>
+              <div class="pt-3">HAPPY CLIENTS</div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="text-white text-center">
+              <div class="pb-3">350</div>
+              <div class="border"></div>
+              <div class="pt-3">EMPLOYEES</div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- vision section -->
+    <section class="p-5 vision">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 text-white">
+            <div class="mb-5">
+              <h3>Our Vision</h3>
+            </div>
+            <div>
+              <p class="mb-3">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p>
+                <a href="./images/wood-vision-sig.webp"><img src="./images/wood-vision-sig.webp" alt="wood-vision-sig"></a>
+              </p>
+              <p>
+                <strong>Paul Heizenberg</strong>
+                <br>
+                CEO of Total Factory
+              </p>
+            </div>
+          </div>
+          <div class="col-6">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- News section -->
+    <section class="p-5 c-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex mb-4 ms-1 ps-4">
+              <h3>Recent News</h3>
+              <a href="#" class="text-blue text-none p-2 ms-3">Read All News</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mx-auto">
+          <div class="col-4">
+            <div class="card mx-auto" style="width: 23rem;">
+              <img src="./images/card-1.webp" class="" alt="card-1">
+              <div class="card-body">
+                <p class="text-muted">03 Dec 2013 / John Doe</p>
+                <h3><a href="#" class="card-title text-none">Donec luctus imperdiet</a></h3>
+                <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Idque Caesaris facere voluntate liceret: sese habere....</p>
+                <a href="#" class="text-blue text-none">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card mx-auto" style="width: 23rem;">
+              <img src="./images/card-2.webp" class="" alt="card-1">
+              <div class="card-body">
+                <p class="text-muted">03 Dec 2013 / John Doe</p>
+                <h3><a href="#" class="card-title text-none">Donec luctus imperdiet</a></h3>
+                <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Idque Caesaris facere voluntate liceret: sese habere....</p>
+                <a href="#" class="text-blue text-none">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 mx-auto">
+            <div class="card mx-auto" style="width: 23rem;">
+              <img src="./images/card-3.webp" class="" alt="card-1">
+              <div class="card-body">
+                <p class="text-muted">03 Dec 2013 / John Doe</p>
+                <h3><a href="#" class="card-title text-none">Donec luctus imperdiet</a></h3>
+                <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Idque Caesaris facere voluntate liceret: sese habere....</p>
+                <a href="#" class="text-blue text-none">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial section -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="testimonial">
+              <div class="text-center pb-4">
+                <h3>Testimonial</h3>
+              </div>
+              <div class="text-center text-muted testi-sec pb-3">
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur.</p>
+              </div>
+              <div class="text-center pb-3">
+                <span class="text-blue">-Alan Smith, </span>
+                <span>Wooden Corp.</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 offset-5">
+            <div class="d-flex justify-content-center pt-3">
+              <i class="fa-solid fa-angle-left px-2" style="color: #808080;"></i>
+              <i class="fa-solid fa-angle-right px-2" style="color: #808080;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <!-- Slider section -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <img src="./images/banner-1.webp" alt="banner-1">
+          </div>
+          <div class="col text-center">
+            <img src="./images/banner-2.webp" alt="banner-2">
+          </div>
+          <div class="col text-center">
+            <img src="./images/banner-3.webp" alt="banner-3">
+          </div>
+          <div class="col text-center">
+            <img src="./images/banner-4.webp" alt="banner-4">
+          </div>
+          <div class="col text-center">
+            <img src="./images/banner-5.webp" alt="banner-5">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- social section -->
+    <section class="p-5 social">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="pb-4 text-white">
+              <h3>Get Social</h3>
+            </div>
+            <div class="pb-4 text-social-color">
+              <p class="">Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper.</p>
+            </div>
+            <div>
+              <ul class="d-flex p-0">
+                <li class="text-white">
+                  <a href="#" class="pe-3"><i class="fa-brands fa-facebook-f" style="color: #36bddb; font-size: 24px;"></i></a>FACEBOOK
+                </li>
+                <li class="text-white">
+                  <a href="#" class="ps-4 pe-3"><i class="fa-brands fa-twitter" style="color: #36bddb; font-size: 24px;"></i></a>TWITTER
+                </li>
+                <li class="text-white">
+                  <a href="#" class="ps-4 pe-3"><i class="fa-brands fa-instagram" style="color: #36bddb; font-size: 24px;"></i></a>INSTAGRAM
+                </li>
+                <li class="text-white">
+                  <a href="#" class="ps-4 pe-3"><i class="fa-brands fa-google-plus-g" style="color: #36bddb; font-size: 24px;"></i></a>GOOGLE PLUS
+                </li>
+                <li class="text-white">
+                  <a href="#" class="ps-4 pe-3"><i class="fa-brands fa-pinterest" style="color: #36bddb; font-size: 24px;"></i></a>PINTEREST
+                </li>
+                <li class="text-white">
+                  <a href="#" class="ps-4 pe-3"><i class="fa-brands fa-vimeo-v" style="color: #36bddb; font-size: 24px;"></i></a>VIMEO
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section --> 
+  </main>
+  <footer>
+    <section class="foot-sec-1 pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div>
+              <h3 class="about-clr pb-4">About Us</h3>
+            </div>
+            <div>
+              <p class="foot-p">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta.</p>
+            </div>
+            <div>
+              <p><img src="./images/logo-light.webp" alt="logo-light"></p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div>
+              <h3 class="about-clr ps-4 pb-4">Recent Posts</h3>
+            </div>
+            <div>
+              <ul>
+                <li>
+                  <div class="pb-3">
+                    <i class="fa-solid fa-angle-right px-2" style="color: #808080;"></i>
+                    <a href="#" class="text-none foot-link">Sem Porta Mollis Parturi</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="pb-3">
+                    <i class="fa-solid fa-angle-right px-2" style="color: #808080;"></i>
+                    <a href="#" class="text-none foot-link">Nullam Lorem Mattis Purus</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="pb-3">
+                    <i class="fa-solid fa-angle-right px-2" style="color: #808080;"></i>
+                    <a href="#" class="text-none foot-link">Nibh Sem Sit Ullamcorper</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="pb-3">
+                    <i class="fa-solid fa-angle-right px-2" style="color: #808080;"></i>
+                    <a href="#" class="text-none foot-link">Donec luctus imperdiet</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-3">
+            <div>
+              <h3 class="about-clr pb-4">Recent Works</h3>
+            </div>
+            <div class="grid d-flex">
+              <div class="g-col-4"><a href="#"><img src="./images/foot-1.webp" class="pe-3 pb-3 object-fit-cover" alt="foot-1" width="100"></a></div>
+              <div class="g-col-4"><a href="#"><img src="./images/foot-2.webp" class="pe-3 pb-3 object-fit-cover" alt="foot-2" width="100"></a></div>
+              <div class="g-col-4"><a href="#"><img src="./images/foot-3.webp" class="pe-3 pb-3 object-fit-cover" alt="foot-3" width="100"></a></div>
+            </div>
+            <div class="grid d-flex">
+              <div class="g-col-4"><a href="#"><img src="./images/foot-4.webp" class="pe-3 pb-3 object-fit-cover" alt="foot-4" width="100"></a></div>
+              <div class="g-col-4"><a href="#"><img src="./images/foot-5.webp" class="pe-3 pb-3 object-fit-cover" alt="foot-5" width="100"></a></div>
+              <div class="g-col-4"><a href="#"><img src="./images/foot-6.webp" class="pe-3 pb-3 object-fit-cover" alt="foot-6" width="100"></a></div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div>
+              <h3 class="about-clr ps-4 pb-4">Contact Info</h3>
+            </div>
+            <div>
+              <ul>
+                <li>
+                  <div class="pb-3">
+                    <span class="foot-p">Address: 184 Main Collins Street West Victoria 8007</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="pb-3">
+                    <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                    <span class="ms-2 foot-p"> +1800-222-3333</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="pb-3">
+                    <i class="fa-solid fa-mobile-screen-button" style="color: #ffffff;"></i>
+                    <span class="ms-2 foot-p"> +1833-232-3443</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="pb-3">
+                    <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                    <span class="ms-2 foot-p"> contact@totalbusinesstheme.com</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="foot-sec-2 pt-3 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f pe-2" style="color: #bbbbbb;"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-twitter pe-2" style="color: #bbbbbb;"></i>
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-globe pe-2" style="color: #bbbbbb;"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-pinterest pe-2" style="color: #bbbbbb;"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-google-plus-g pe-2" style="color: #bbbbbb;"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-instagram pe-2" style="color: #bbbbbb;"></i>
+            </a>
+          </div>
+          <div class="col-6">
+            <div class="d-flex justify-content-end foot-p">
+              Copyright 2018 Max Themes, All Right Reserved 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+<!-- Bootstrap JS and FontAwesome Icons -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

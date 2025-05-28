@@ -1,0 +1,300 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Lato";
+}
+
+main{
+    overflow: hidden;
+}
+
+/* header */
+
+.logo{
+    width: 100%;
+}
+
+ul, ol, a{
+    list-style: none;
+}
+
+.text-none{
+    text-decoration: none;
+}
+
+.head-hov{
+    color: #6c757d;
+    font-size: 12px;
+    font-family: "Lato";
+    font-weight: 700;
+}
+
+.head-list:hover .head-hov{
+    color: black;
+}
+
+.dropdown-menu{
+    top: 200%;
+    left: -30%;
+}
+
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.text-hov{
+    font-size: 12px;
+    transition: all 0.5s;
+    line-height: 1.5;
+    font-family: "Lato" !important;
+}
+
+.dropdown-item{
+    --bs-dropdown-link-color:#808080;
+}
+
+.dropdown-item:hover{
+    --bs-dropdown-link-color: white;
+    color: var(--bs-dropdown-link-color);
+}
+
+.f-17{
+    font-size: 17px;
+    padding: 7px 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.text-hov{
+    --bs-dropdown-link-color:#808080;
+}
+
+.text-hov:hover{
+    --bs-dropdown-link-hover-color: white;
+    --bs-dropdown-link-hover-bg: black;
+    background-color: var(--bs-dropdown-link-hover-bg);
+    color: var(--bs-dropdown-link-hover-color);
+}
+
+.mega-menu{
+    min-width: 1140px !important;
+    left: -700% !important;
+    padding: 20px 25px 30px !important;
+}
+
+.mega-menu-1{
+    min-width: 1140px !important;
+    left: -1100% !important;
+    padding: 20px 25px 30px !important;
+}
+
+.mega-menu-2{
+    padding: 20px 25px 30px !important;
+    left: -750% !important;
+    min-width: 1140px !important;
+}
+
+/* banner */
+
+.banner{
+    background-image: url(../images/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+/* service section */
+
+.image{
+    background-image: url(../images/service-half-1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-wrap: nowrap;
+}
+
+.service-sec-1{
+    padding-right: 20px;
+}
+
+/* theme-image */
+
+.theme-img{
+    background-image: url(../images/wood-stunning-bg-3.webp);
+    padding-top: 110px;
+    padding-bottom: 80px;
+    background-position: center;
+}
+
+/* image-section */
+
+.text-info-hov{
+    color: #36bddb;
+}
+
+.text-info-hov:hover{
+    color: white;
+}
+
+.img-overlay{
+    background-color: transparent;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    height: 100%;
+    transition: all 0.7s;
+}
+
+.img-sec:hover .img-overlay{
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    opacity: 1;
+    visibility: visible;
+}
+
+.img-sec{
+    background-color: transparent;
+    z-index: 1000;
+}
+
+.img-sec:hover{
+    transform: scale(1);
+}
+
+/* about us section */
+
+.prog-item{
+    margin-bottom: 27px;
+}
+
+.prog-bar{
+    background-color: #36bddb;
+    border-radius: 6px;
+    height: 6px;
+}
+
+.prog-title{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1;
+    margin-bottom: 6px;
+    color: #1b1a1a;
+}
+
+.prog{
+    border-radius: 6px;
+    height: 6px;
+    width: 100%;
+    --bs-progress-height: 6px;
+    height: var(--bs-progress-height);
+    --bs-secondary-bg: #e9ecef;
+    background-color: var(--bs-secondary-bg);
+}
+
+/* counter section */
+
+.counter{
+    background-image: url(../images/wood-skill-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.border{
+    width: 18px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    border-bottom-width: 2px;
+    margin: 0px auto;
+}
+
+/* vision section */
+
+.vision{
+    background-image: url(../images/wood-about-bg1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* news section */
+
+.card{
+    --bs-border-radius: 0px;
+    border-radius: var(--bs-border-radius);
+}
+
+.card-title{
+    transition: all 0.5s;
+    --bs-link-color:black;
+    color: var(--bs-link-color);
+}
+
+.card-title:hover{
+    --bs-link-hover-color: #36bddb;
+    color: var(--bs-link-hover-color);
+}
+
+.text-blue{
+    --bs-link-color: #36bddb;
+    color: var(--bs-link-color);
+}
+
+.c-section{
+    background-color: #f7f7f7;
+}
+
+/* testimonial section */
+
+.testi-sec{
+    padding: 0 370px;
+}
+
+/* Slider section */
+
+/* social section */
+
+.social{
+    background-color: #313131
+}
+
+.text-social-color{
+    color: #acacac;
+}
+
+/* footer */
+
+.foot-sec-1{
+    background-color: #262626;
+}
+
+.foot-sec-2{
+    background-color: black;
+}
+
+/* footer section */
+
+.about-clr{
+    color: rgb(221, 221, 221);
+}
+
+.foot-p{
+    color: rgb(191, 191, 191);
+}
+
+.foot-link{
+    color: rgb(127, 127, 127);
+    transition: all 0.5s;
+}
+
+.foot-link:hover{
+    color: white;
+}

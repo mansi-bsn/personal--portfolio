@@ -1,0 +1,15 @@
+https://htmlbeans.com/html/kyata-multipurpose/homepage.html?storefront=envato-elements
+
+color :-     --red: #eb2c25;
+
+<i class="fa-solid fa-pen-ruler" style="color: #eb2c25;"></i>
+
+<i class="fa-solid fa-layer-group" style="color: #eb2c25;"></i>
+
+<i class="fa-solid fa-desktop" style="color: #eb2c25;"></i>
+
+<i class="fa-solid fa-chess-knight" style="color: #eb2c25;"></i>
+
+<i class="fa-solid fa-gears" style="color: #eb2c25;"></i>
+
+<i class="fa-solid fa-comments" style="color: #eb2c25;"></i>

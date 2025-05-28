@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* about me section */
+
+.btn-light{
+    --bs-btn-color: #838485;
+    border: 1px dashed #838485;
+}
+
+/* portfolio section */
+
+.galry-img{
+    overflow: hidden;
+    height: 405px;
+}
+
+.galry-content{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-60%);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.galry-item:hover .galry-content{
+    visibility: visible;
+    opacity: 1;
+    top: 70%;
+    transform: translateY(-70%);
+    transform: translateY(0);
+}
+
+.clr-wh{
+    --bs-link-color-rgba: 255, 255, 255;
+    color: rgba(var(--bs-link-color-rgba), var(--bs-link-opacity, 1));
+    color: #ffffffcf;
+    transition: all 0.5s;
+}
+
+.clr-wh:hover{
+    color: #fff;
+}
+
+/* resume section */
+
+.timeline {
+    position: relative;
+}
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #6c757d;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+.timeline-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.timeline-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.timeline-point {
+    width: 15px;
+    height: 15px;
+    background-color: #6c757d;
+    border-radius: 50%;
+    margin: 0 auto;
+}

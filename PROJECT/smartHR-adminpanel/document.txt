@@ -1,0 +1,221 @@
+https://smarthr.dreamstechnologies.com/laravel/template/public/index
+
+grip
+
+<i class="fa-solid fa-grip-vertical" style="color: #6b7280;"></i>
+
+setting
+
+<i class="fa-solid fa-gears" style="color: #6b7280;"></i>
+
+expand
+
+<i class="fa-solid fa-expand" style="color: #6b7280;"></i>
+
+bell
+
+<i class="fa-regular fa-bell" style="color: #6b7280;"></i>
+
+mail
+
+<i class="fa-regular fa-envelope" style="color: #6b7280;"></i>
+
+chat
+
+<i class="fa-regular fa-comments" style="color: #6b7280;"></i>
+
+grid
+
+<i class="fa-solid fa-border-all" style="color: #6b7280;"></i>
+
+search
+
+<i class="fa-solid fa-magnifying-glass" style="color: #6b7280;"></i>
+
+user
+
+<i class="fa-regular fa-user" style="color: #6b7280;"></i>
+
+company
+
+<i class="fa-regular fa-building" style="color: #6b7280;"></i>
+
+deals
+
+<i class="fa-regular fa-handshake" style="color: #6b7280;"></i>
+
+leads
+
+<i class="fa-solid fa-user-check" style="color: #6b7280;"></i>
+
+timeline
+
+<i class="fa-solid fa-timeline" style="color: #6b7280;"></i>
+
+activity
+
+<i class="fa-solid fa-chart-line" style="color: #6b7280;"></i>  
+
+arrow
+
+<i class="fa-solid fa-arrow-right"></i>
+
+calendar
+
+<i class="fa-regular fa-calendar"></i>
+
+dashboard
+
+<i class="fa-solid fa-igloo" style="color: #6b7280;"></i>
+
+down angle
+
+<i class="fa-solid fa-angle-down" style="color: #000000;"></i>
+
+horizontal
+
+<i class="fa-regular fa-square" style="color: #6b7280;"></i>
+
+layout icons
+
+<i class="fas fa-align-justify"></i>
+<i class="fas fa-exclamation-triangle"></i>
+<i class="fas fa-th-large"></i>
+<i class="fas fa-columns"></i>
+<i class="fas fa-plus-circle"></i>
+<i class="fas fa-box"></i>
+<i class="fas fa-stream"></i>
+<i class="fas fa-layer-group"></i>
+<i class="fas fa-box-open"></i>
+<i class="fas fa-bars"></i>
+<i class="fas fa-border-none"></i>
+<i class="fas fa-window-minimize"></i>
+<i class="fas fa-arrows-alt-h"></i>
+<i class="fas fa-moon"></i>
+
+projects
+
+<i class="fa-solid fa-users" style="color: #6b7280;"></i>
+<i class="fa-solid fa-cube" style="color: #6b7280;"></i>
+
+crm
+
+<i class="fa-regular fa-user" style="color: #6b7280;"></i>
+<i class="fa-regular fa-building" style="color: #6b7280;"></i>
+<i class="fa-regular fa-handshake" style="color: #6b7280;"></i>
+<i class="fa-solid fa-user-check" style="color: #6b7280;"></i>
+<i class="fa-solid fa-timeline" style="color: #6b7280;"></i>
+<i class="fa-solid fa-chart-simple" style="color: #6b7280;"></i>
+<i class="fa-solid fa-chart-line" style="color: #6b7280;"></i>
+
+calender
+
+<i class="fa-regular fa-calendar" style="color: #000000;"></i>
+
+angle up
+
+<i class="fa-solid fa-angles-up" style="color: #000000;"></i>
+
+doc
+
+<i class="fa-regular fa-file" style="color: #000000;"></i>
+
+export pdf
+
+<i class="fa-regular fa-file-pdf" style="color: #000000;"></i>
+
+export xls
+
+<i class="fa-regular fa-file-excel" style="color: #000000;"></i>
+
+pen-square
+
+<i class="fa-regular fa-pen-to-square" style="color: #6b7280;"></i>
+
+add
+
+<i class="fa-regular fa-square-plus" style="color: #ffffff;"></i>
+
+folder
+
+<i class="fa-regular fa-folder-closed" style="color: #ffffff;"></i>
+
+2 folder
+
+<i class="fa-regular fa-folder" style="color: #ffffff;"></i>
+
+client
+
+<i class="fa-solid fa-users" style="color: #ffffff;"></i>
+
+task
+
+<i class="fa-solid fa-list-check" style="color: #ffffff;"></i>
+
+earning
+
+<i class="fa-solid fa-sack-dollar" style="color: #ffffff;"></i>
+
+hire
+
+<i class="fa-regular fa-user" style="color: #6b7280;"></i>
+
+arrow up
+
+<i class="fa-solid fa-sort-up" style="color: #03c95a;"></i>
+
+arrow down
+
+<i class="fa-solid fa-sort-down" style="color: #e70d0d;"></i>
+
+circle
+
+<i class="fa-solid fa-circle" style="color: #f26522;"></i>
+
+circle-plus
+
+<i class="fa-solid fa-circle-plus" style="color: #f26522;"></i>
+
+clock
+
+<i class="fa-regular fa-clock" style="color: #050505;"></i>
+
+elipse
+
+<i class="fa-solid fa-ellipsis-vertical" style="color: #6b7280;"></i>
+
+send
+
+<i class="fa-regular fa-share-from-square" style="color: #ffffff;"></i>
+
+square
+
+<i class="fa-solid fa-square"></i>
+
+award
+
+<i class="fa-solid fa-award" style="color: #f26522;"></i>
+
+3 dot
+
+<i class="fa-solid fa-ellipsis-vertical" style="color: #f26522;"></i>
+
+menu
+
+<i class="fa-solid fa-bars" style="color: #f26522;"></i>
+
+facebook
+
+<i class="fa-brands fa-facebook"></i>
+
+google
+
+<i class="fa-brands fa-google"></i>
+
+apple
+
+<i class="fa-brands fa-apple"></i>
+
+eye
+
+<i class="fa-regular fa-eye-slash" style="color: #6b7280"></i>

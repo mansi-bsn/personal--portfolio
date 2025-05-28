@@ -1,0 +1,726 @@
+@media(max-width: 575px){
+
+    .w-xs-1{
+        width: 8.33333%;
+    }
+
+    .w-xs-2{
+        width: 16.66667%;
+    }
+
+    .w-xs-3{
+        width: 25%;
+    }
+
+    .w-xs-4{
+        width: 33.33333%;
+    }
+
+    .w-xs-5{  
+        width: 41.66667%;
+    }
+
+    .w-xs-6{
+        width: 50%;
+    }
+
+    .w-xs-7{
+        width: 58.33333%;
+    }
+
+    .w-xs-8{
+        width: 66.66667%;
+    }
+
+    .w-xs-9{
+        width: 75%; 
+    }
+
+    .w-xs-10{ 
+        width: 83.33333%;
+    }
+
+    .w-xs-11{
+        width: 91.66667%;
+    }
+
+    .w-xs-12{
+        width: 100%;
+    }
+
+    .d-xs-none{
+        display: none;
+    }
+
+    .justify-xs-start{
+        justify-content: flex-start;
+    }
+
+    .mrg-xs-rt{
+        margin-right: 15px;
+
+    }
+
+    .f-xs-14{
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .f-xs-30{
+        font-size: 30px;
+    }
+    
+    .f-xs-15{
+        font-size: 15px;
+    }
+
+    .f-xs-28{
+        font-size: 28px;
+    }
+
+    .m-xs-0{
+        margin: 0;
+    }
+
+    .pl-xs-0{
+        padding-left: 0;
+    }
+
+    .p-xs-0{
+        padding: 0;
+    }
+
+    .pb-xs-25{
+        padding-bottom: 25px;
+    }
+
+    .pb-xs-10{
+        padding-bottom: 10px;
+    }
+
+    .m-lt-xs-0{
+        margin-left: 0;
+        margin-top: 70px;
+    }
+
+    .mt-xs-0{
+        margin-top: 0;
+    }
+
+    .row{
+        margin: 0;
+    }
+
+    .pd-xs-bt-15{
+        padding-bottom: 15px;
+    }
+
+    .pd-xs-top{
+        padding-top: 30px;
+    }
+
+    .pd-xs-0{
+        padding-bottom: 0;
+    }
+
+    .f-xs-14{
+        font-size: 14px;
+    }
+
+    .height-xs-graph{
+        height: 500px;
+    }
+}
+
+@media(min-width: 576px){
+  
+    .w-s-1{
+        width: 8.33333%;
+    }
+
+    .w-s-2{
+        width: 16.66667%;
+    }
+
+    .w-s-3{
+        width: 25%;
+    }
+
+    .w-s-4{
+        width: 33.33333%;
+    }
+
+    .w-s-5{
+        width: 41.66667%;
+    }   
+
+    .w-s-6{
+        width: 50%;
+    }
+
+    .w-s-7{
+        width: 58.33333%;
+    }
+
+    .w-s-8{
+        width: 66.66667%;
+    }
+
+    .w-s-9{
+        width: 75%;
+    }
+
+    .w-s-10{
+        width: 83.33333%;
+    }
+
+    .w-s-11{
+        width: 91.66667%;
+    }
+
+    .w-s-12{
+        width: 100%;
+    }
+
+    .d-s-none{
+        display: none;
+    }
+
+    .justify-s-start{
+        justify-content: flex-start;
+    }
+
+    .pd-s-bt-15{
+        padding-bottom: 15px;
+    }
+
+    .mrg-s-rt{
+        margin-right: 24px;
+    }
+
+    .m-lt-s-0{
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .f-s-17{
+        font-size: 17px;    
+        font-weight: 700;
+    }
+
+    .f-s-50{
+        font-size: 50px;
+    }
+
+    .f-s-15{
+        font-size: 15px;    
+    }
+
+    .f-s-40{
+        font-size: 40px;
+    }
+
+    .f-s-44{
+        font-size: 44px;
+    }
+
+    .pd-s-bt{
+        padding-bottom: 60px;
+    }
+
+    .pb-s-25{
+        padding-bottom: 25px;
+    }
+
+    .pb-s-10{
+        padding-bottom: 10px;
+    }
+
+    .pd-s-top{
+        padding-top: 60px;
+    }
+
+    .pd-s-0{
+        padding-bottom: 0;
+    }
+
+    .pl-s-0{
+        padding-left: 0;
+    }
+
+    .f-s-14{
+        font-size: 14px;
+    }
+
+    .f-s-30{
+        font-size: 30px;
+    }
+
+    .w-xs-100{
+        width: 100%;
+    }
+
+    .height-s-graph{
+        height: 500px;
+    }
+
+    #attendanceChart1{
+        left: 10%;
+        bottom: 0;
+    }
+}
+
+@media(min-width: 768px){
+ 
+    .w-m-1{
+        width: 8.33333%;
+    }
+
+    .w-m-2{
+        width: 16.66667%;
+    }
+
+    .w-m-3{
+        width: 25%;
+    }
+
+    .w-m-4{
+        width: 33.33333%;
+    }
+
+    .w-m-5{
+        width: 41.66667%;
+    }
+
+    .w-m-6{
+        width: 50%;
+    }
+
+    .w-m-7{
+        width: 58.33333%;
+    }
+
+    .w-m-8{
+        width: 66.66667%;
+    }
+
+    .w-m-9{
+        width: 75%;
+    }
+
+    .w-m-10{  
+        width: 83.33333%;                   
+    }   
+
+    .w-m-11{
+        width: 91.66667%;
+    }
+
+    .w-m-12{
+        width: 100%;
+    }
+
+    .f-m-31{
+        font-size: 31px;   
+        line-height: 45px; 
+    }
+
+    .d-m-none{
+        display: none;
+    }
+
+    .f-m-14{
+        font-size: 14px;
+    }
+
+    .m-lt-m-0{
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .over-m-auto{
+        overflow: auto;
+    }
+
+    .f-m-50{
+        font-size: 50px;
+    }
+
+    .pl-m-0{
+        padding-left: 0;
+    }
+
+    .pd-m-rl{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .justify-m-start{
+        justify-content: flex-start;
+    }
+
+    .pd-m-bt-15{
+        padding-bottom: 15px;
+    }
+
+    .pd-m-40{
+        padding: 0 0;
+    }
+
+    .pd-m-bt{
+        padding-bottom: 70px;
+    }
+
+    .pd-m-top{
+        padding-top: 70px;
+    }
+
+    .pb-m-25{
+        padding-bottom: 25px;
+    }
+
+    .pb-m-10{
+        padding-bottom: 10px;
+    }
+
+    #attendanceChart1{
+        left: 18%;
+        bottom: 0;
+    }
+
+    .height-m-graph{
+        height: 500px;
+    }
+}
+
+@media(min-width: 992px){
+  
+
+    .w-l-1{
+        width: 8.33333%;
+    }
+
+    .w-l-2{
+        width: 16.66667%;
+    }
+
+    .w-l-3{
+        width: 25%;
+    }
+
+    .w-l-4{
+        width: 33.33333%;
+    }
+
+    .w-l-5{
+        width: 41.66667%;
+    }   
+
+    .w-l-6{
+        width: 50%;
+    }
+
+    .w-l-7{
+        width: 58.33333%;
+    }
+
+    .w-l-8{
+        width: 66.66667%;
+    }
+
+    .w-l-9{
+        width: 75%;
+    }
+
+    .w-l-10{
+        width: 83.33333%;
+    }
+
+    .w-l-11{  
+        width: 91.66667%;
+    }
+
+    .w-l-12{
+        width: 100%;
+    }
+
+    .d-l-block{
+        display: block;
+    }
+
+    .d-l-none{
+        display: none;
+    }
+
+    .mrg-l-rt{
+        margin-right: 0;
+    }
+
+    .m-lt-l-auto{
+        margin-top: 40px;
+        margin-left: 250px;
+    }
+
+    .ml-l-auto{
+        margin-left: 250px;
+    }
+
+    .m-l-auto{
+        margin: auto;
+    }
+
+    .f-l-50{
+        font-size: 50px;
+    }
+
+    .f-l-15{
+        font-size: 15px;
+    }
+
+    .f-l-75{
+        font-size: 75px;
+    }
+
+    .pl-l-auto{
+        padding-left: 250px;
+    }
+
+    .pd-l-rl-35{
+        padding: 0 35px;
+    }
+
+    .justify-l-end{
+        justify-content: flex-end;
+    }
+
+    .pd-l-bt-0{
+        padding-bottom: 0;
+    }
+
+    .pd-l-rl-60{
+        padding: 0 130px;
+    }
+
+    .pd-l-bt{
+        padding-bottom: 80px;
+    }
+
+    .pd-l-top{
+        padding-top: 80px;
+    }
+
+    .pd-l-bt-120{
+        padding-bottom: 100px;
+    }
+
+    #attendanceChart1{
+        left: 14%;
+        bottom: 0;
+    }
+
+}
+
+@media(min-width: 1200px){
+   
+
+    .w-xl-1{
+        width: 8.33333%;
+    }
+
+    .w-xl-2{
+        width: 16.66667%;
+    }
+
+    .w-xl-3{
+        width: 25%;
+    }
+
+    .w-xl-4{
+        width: 33.33333%;
+    }
+
+    .w-xl-5{
+        width: 41.66667%;
+    }
+
+    .w-xl-6{
+        width: 50%;
+    }
+
+    .w-xl-7{
+        width: 58.33333%;
+    }
+
+    .w-xl-8{
+        width: 66.66667%;
+    }
+
+    .w-xl-9{
+        width: 75%;
+    }
+
+    .w-xl-10{
+        width: 83.33333%;
+    }
+
+    .w-xl-11{
+        width: 91.66667%;
+    }
+
+    .w-xl-12{
+        width: 100%;
+    }
+
+    .w-over-xl{
+        overflow: hidden;
+        /* overflow-x: scroll; */
+    }
+
+    .m-lt-xl-auto{
+        margin-top: 40px;
+        margin-left: 250px;
+    }
+
+    .pl-xl-auto{
+        padding-left: 250px;
+    }
+
+    .pd-xl-rl-230{
+        padding: 0 200px;
+    }
+
+    .pd-xl-rl-100{
+        padding: 0 50px;
+    }
+
+    .pd-xl-bt{
+        padding-bottom: 100px;
+    }
+
+    .pd-xl-top{
+        padding-top: 100px;
+    }
+
+    .d-xl-flex{
+        display: flex;
+    }
+
+    #attendanceChart1{
+        left: 9%;
+        bottom: 0;
+    }
+
+    .height-xl-graph{
+        height: auto;
+    }
+}
+
+@media(min-width: 1400px){
+
+
+    .w-xxl-1{
+        width: 8.33333%;
+    }
+
+    .w-xxl-2{
+        width: 16.66667%;
+    }   
+
+    .w-xxl-3{
+        width: 25%;
+    }
+
+    .w-xxl-4{
+        width: 33.33333%;
+    }
+
+    .w-xxl-5{
+        width: 41.66667%;
+    }
+
+    .w-xxl-6{
+        width: 50%;
+    }
+
+    .w-xxl-7{
+        width: 58.33333%;
+    }
+
+    .w-xxl-8{
+        width: 66.66667%;
+    }
+
+    .w-xxl-9{
+        width: 75%;
+    }
+
+    .w-xxl-10{
+        width: 83.33333%;
+    }
+
+    .w-xxl-11{
+        width: 91.66667%;
+    }
+
+    .w-xxl-12{
+        width: 100%;
+    }
+
+    .m-lt-xll-auto{
+        margin-top: 40px;
+        margin-left: 250px;
+    }
+
+    .pb-xxl-0{
+        padding-bottom: 0px;
+    }
+
+    .pb-xxl-25{
+        padding-bottom: 40px;
+    }
+
+    .pd-xxl-rl-200{
+        padding: 0 250px;
+    }
+
+    .pd-xxl-rl-330{
+        padding: 0 330px;
+    }
+
+    .pad-xxl-150{
+        padding: 0 150px;
+    }
+
+    .pd-xxl-bt{
+        padding-bottom: 120px;
+    }
+
+    .pd-xxl-top{
+        padding-top: 120px;
+    }
+
+    .pl-xxl-auto{
+        padding-left: 250px;
+    }
+
+    .f-xxl-85{
+        font-size: 85px;
+    }
+
+    .f-xxl-17{
+        font-size: 17px;
+    }
+
+    .pad-xxl-15{
+        padding: 0 35px;
+    }
+
+    .height-xxl-graph{
+        height: auto;
+    }
+
+    #attendanceChart1{
+        left: 11%;
+        bottom: 0;
+    }
+}
